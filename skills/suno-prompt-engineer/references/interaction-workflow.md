@@ -111,11 +111,13 @@ If audio is available, analyze by section and timestamp. If only text is availab
 Classify the issue:
 
 - Lyric content or concreteness.
-- Prosody, density, pronunciation, or singability.
+- Prosody, syllable-grid drift, density, pronunciation, or singability.
+- Rhyme-family drift or an off-family section cadence.
 - Structure or energy timing.
 - Breath, overlap, or phrase separation.
 - Hook memorability.
 - Vocal timbre, register, force, melisma, or ad-libs.
+- Emotional or register ceiling violation, including an unrequested high note or oversized climax.
 - Tonality, modulation, chromaticism, or melodic stability.
 - Instrumentation or arrangement density.
 - Dynamic contrast.
@@ -126,7 +128,7 @@ Classify the issue:
 
 Recommend another generation before changing the prompt when the direction is correct and the issue is isolated: one unusual ornament, one pronunciation error, one accidental texture, or an untested first result.
 
-Revise when the same fault recurs, the structure repeatedly fails, vocals consistently overlap, melisma or modulation remains excessive, the Chorus repeatedly lacks impact, breathing is absent from formatting, the fields conflict, or the user's goal changes.
+Revise when the same fault recurs, the structure repeatedly fails, a section's line grid or rhyme cadence is visibly inconsistent, vocals consistently overlap, melisma or modulation remains excessive, the song repeatedly exceeds its emotional/register ceiling, the Chorus repeatedly lacks impact, breathing is absent from formatting, the fields conflict, or the user's goal changes.
 
 Do not pile on negative constraints after one random result.
 
@@ -136,7 +138,7 @@ Do not pile on negative constraints after one random result.
 2. State the observed problem.
 3. Lock the confirmed elements.
 4. Select one to three related variables.
-5. Modify the smallest clear replacement boundary.
+5. Modify the smallest clear replacement boundary. For lyric prosody, repair the line grid and rhyme cadence before adding performance tags. For an energy-ceiling fault, remove conflicting escalation cues before adding local pullback tags.
 6. State the expected audible effect without promising success.
 7. Request or await the next generation result.
 
