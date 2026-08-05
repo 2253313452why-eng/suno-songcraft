@@ -1,0 +1,4 @@
+interface:
+  display_name: "Suno Prompt Engineering"
+  short_description: "创作、改写并迭代可直接用于 Suno 的歌词与风格提示词"
+  default_prompt: "Use $suno-prompt-engineer to turn my song idea into polished Suno Lyrics and Style prompts."
