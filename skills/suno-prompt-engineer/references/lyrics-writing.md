@@ -5,7 +5,7 @@
 1. Quality priorities
 2. Song blueprint
 3. Concrete writing
-4. Singability and rhyme
+4. Prosody blueprint
 5. Hook design
 6. Rewrite levels
 7. Chinese human-writing creation pass
@@ -68,7 +68,11 @@ Ask internally:
 
 ## Preserve singability
 
-Use roughly 6–14 Chinese characters per line as a common Mandarin-pop heuristic, not a hard limit. Keep corresponding lines within a melodic group reasonably balanced. Allow rap, spoken word, opera, folk, and experimental forms to use their own prosodic logic.
+Count sung syllables rather than visual width. Most Chinese characters count as one syllable; read English words, numbers, and abbreviations by their actual pronunciation. Punctuation and spaces do not count and cannot repair an irregular line.
+
+Choose a line grid before drafting each section. Common Mandarin-pop starting points include `8/8/8/8`, `7/7/8/8`, or another simple repeated pair—not one universal target for the whole song. Keep paired lines within one sung syllable where possible; allow a two-syllable difference only for a deliberate pickup, held note, or spoken fragment. Keep parallel Chorus lines within one syllable and preserve the exact grid when the hook repeats.
+
+Use roughly 6–14 Chinese characters per line only as an outer drafting heuristic. Regularity inside the chosen section matters more than merely falling inside that wide range. Rap, spoken word, opera, folk, and experimental forms may use different prosodic logic, but they still need an intentional bar or phrase pattern.
 
 Break lines at complete phrases, grammatical rests, emotional emphasis, or rhyme points. Avoid splitting a tight phrase unnaturally. Place semantic keywords near line endings, Chorus openings, refrain endings, or likely sustained notes.
 
@@ -88,9 +92,36 @@ Use this priority:
 semantic accuracy > natural language > rhythmic flow > rhyme regularity
 ```
 
-Keep Verse rhyme flexible enough for narration. Tighten rhyme, parallel phrasing, or repetition in the Pre-Chorus and Chorus. Permit a Bridge to change rhyme family when the perspective changes. Avoid filling rhyme positions with generic words such as “远方、光芒、方向、翅膀” unless they carry specific meaning.
+Plan rhyme by section before drafting. In Mandarin, judge sung rhyme mainly from the line-ending final—the main vowel and any nasal ending—while treating tone as secondary. Write down the intended family and candidate cadence words instead of discovering the rhyme accidentally after the section is complete.
+
+- Keep Verse rhyme flexible enough for narration, but use a legible `AABB`, `ABAB`, or coherent two-family plan rather than unrelated endings.
+- Let a two-line Pre-Chorus normally land `AA`, or use one clearly intentional pivot into the Chorus.
+- Give the Chorus the strongest agreement: usually three of four or all four cadence lines should share a compatible family, depending on the form.
+- Permit a Bridge to change family when the perspective changes.
+- Treat the final content line of every section as the cadence anchor. If it accidentally falls outside the plan, rewrite it unless the rupture is intentional and supported by a pause or structural turn.
+
+Avoid filling rhyme positions with generic words such as “远方、光芒、方向、翅膀” unless they carry specific meaning. Do not force inversion, vague filler, or inaccurate wording to obtain a rhyme. If meaning and rhyme conflict, first look for a natural synonymous ending or rebuild the whole phrase rather than attaching a disposable rhyme word.
 
 Treat English words as semantic and rhythmic material, not decorative rhyme tokens.
+
+## Build the prosody blueprint
+
+Before writing prose-like lines, make a compact internal worksheet:
+
+| Section | Sung-syllable grid | Rhyme plan | Cadence words/finals | Energy/register ceiling |
+| --- | --- | --- | --- | --- |
+| Verse 1 | `8/8/8/8` | `AABB` | planned before drafting | low-to-mid, intimate |
+| Pre-Chorus | `7/7` | `AA` | compatible pair | restrained, no lift |
+| Chorus | `9/9/9/9` | `AAAA` or `AAXA` | hook-led family | same register, deeper not louder |
+
+The numbers and schemes are examples, not mandatory templates. Select them from the intended groove, speech rhythm, and reference analysis. Keep Verse 2 metrically compatible with Verse 1 when they are expected to share a melody. Keep repeated Choruses identical unless a changed final line is a deliberate compositional event.
+
+Audit in this order after drafting:
+
+1. Remove tags and count sung syllables line by line.
+2. Mark the final and rhyme family of every cadence line.
+3. Repair lines that break the grid or rhyme plan while preserving natural syntax and concrete meaning.
+4. Re-read aloud for breath, stress, pronunciation, and hook recall.
 
 ## Design the hook
 
@@ -155,7 +186,7 @@ When optimizing existing lyrics:
 3. Preserve strong idiosyncratic lines even when they are slightly irregular; do not polish away the user's voice.
 4. Replace an abstract line with evidence already present elsewhere before inventing new detail.
 5. If a stronger repair requires a personal fact that is not supplied, offer a placeholder question or explain the missing detail instead of fabricating it.
-6. Recheck line length, stress, vowel openness, breath, rhyme family, and hook recall after every language repair.
+6. Recheck the section syllable grid, stress, vowel openness, breath, rhyme family, cadence anchor, and hook recall after every language repair.
 
 Human tone does not outrank song function. Keep a clear hook, sectional contrast, singable phrasing, and narrative advancement. Do not turn lyrics into chopped prose.
 
@@ -194,6 +225,8 @@ Do not invent lyrical content. Design sections as musical events and ensure Styl
 - Confirm that the title or hook appears naturally.
 - Keep a Bridge only when it changes understanding or energy.
 - Balance line lengths and breathing groups.
+- Verify the written syllable grid rather than relying on visual similarity; paired lines normally differ by no more than one sung syllable.
+- Mark each section's rhyme family and confirm that its final cadence line belongs to the plan.
 - Remove forced rhyme, empty abstractions, and repeated information.
 - Replace knowledge-like emotion labels with observable evidence where possible.
 - Confirm that at least one line or image feels specific to this narrator and cannot move unchanged into an unrelated song.
