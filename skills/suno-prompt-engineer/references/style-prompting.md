@@ -6,9 +6,10 @@
 2. Information slots
 3. Priority and conflict handling
 4. Beginner translation
-5. Prompt shapes
-6. Iteration
-7. Quality check
+5. Emotional and register ceiling
+6. Prompt shapes
+7. Iteration
+8. Quality check
 
 ## Keep Style global
 
@@ -71,7 +72,7 @@ It opens with close-miked piano and a sparse ambient pad. Fingerpicked acoustic 
 Describe lead organization, range or register if useful, timbre, Verse delivery, Chorus delivery, diction, backing layers, and emotional control. Do not invent detailed gender, age, or identity when unspecified.
 
 ```text
-A warm, clear lead vocal uses intimate conversational phrasing in the verses, controlled belting in the chorus, and restrained harmonies only in the final refrain.
+A warm, clear lead vocal uses intimate conversational phrasing in the verses and a slightly firmer but still controlled delivery in the chorus, with restrained harmonies only in the final refrain.
 ```
 
 Control crowding explicitly when relevant: single lead, audible breath gaps, no overlapping lines, restrained melisma, and limited ad-libs.
@@ -107,6 +108,27 @@ sparse and intimate in the verses, expanding into a wide full-band chorus
 ```
 
 Do not flatten contradictions such as minimal/full, dry/cavernous, clean/heavily distorted, whispered/powerfully belted, or stable/frequently modulating into simultaneous global requirements.
+
+## Set the emotional and register ceiling
+
+Translate the user's emotional words into an audible maximum as well as a trajectory. When the request is sad, quiet, restrained, private, or intimate, specify that the emotional deepening must not automatically become higher, louder, wider, or more ornamented.
+
+Use compatible global controls:
+
+- Low-to-mid lead register and narrow melodic range.
+- Intimate, near-spoken, or close-miked delivery.
+- Restrained dynamics and sparse arrangement.
+- Choruses that deepen through wording or subtle harmony rather than register lift.
+- Stable tonal center with no unrequested modulation or key lift.
+- No belting, octave leaps, climactic high notes, continuous melisma, or full-band climax.
+
+Example:
+
+```text
+A restrained piano-led Mandopop lament, quiet and intimate throughout, with a slow unhurried pulse and sparse room ambience. Keep the lead vocal in a low-to-mid register with near-spoken phrasing, clear syllabic diction, audible breath gaps, and a narrow melodic range. Let the chorus deepen emotionally without becoming louder or higher; use only subtle harmonic color and a light string texture, never a full-band lift. Maintain a stable tonal center with no modulation or key lift, no belting, octave leaps, climactic high notes, or extended melisma. Keep the vocal close, dry, and forward, ending smaller than the chorus.
+```
+
+Before finalizing a restrained song, search both fields for escalation cues such as `build`, `lift`, `powerful`, `belting`, `full strings`, `full band`, `crescendo`, `soaring`, `anthemic`, `octave`, and `key lift`. Remove or qualify each one unless the user explicitly wants that event.
 
 ## Translate beginner language
 
@@ -157,7 +179,7 @@ Use approximately 40–70 English words for a simple concise prompt, 70–120 fo
 Translate the reference into abstract attributes rather than naming an imitation target:
 
 ```text
-A restrained piano-led pop ballad with conversational verses, a gradually rising pre-chorus, a title-centered chorus, warm string support, controlled emotional belting, and a clean vocal-forward mix.
+A restrained piano-led pop ballad with conversational verses, a title-centered refrain, subtle harmonic deepening without a register lift, light string support, an intimate low-to-mid lead vocal, and a clean vocal-forward mix.
 ```
 
 If the user selects only structure or emotion from the reference, do not import its voice, instrumentation, or mix.
@@ -176,10 +198,11 @@ Recommend another generation before prompt expansion when the direction is corre
 - Avoid unsupported exact BPM, key, register, or identity.
 - Give instruments roles or entry points.
 - Give the arrangement an energy curve.
+- Set an explicit emotional and register ceiling when the requested song is quiet or restrained.
 - Specify timbre, delivery, diction, and layer behavior where useful.
 - Make mix language concrete.
 - Use only necessary exclusions.
 - Align with Lyrics tags and section events.
 - Keep tonal movement and vocal ornament intentional.
+- Remove local or global escalation cues that contradict the requested ceiling.
 - Remove redundant synonyms and decorative vocabulary.
-
