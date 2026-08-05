@@ -28,18 +28,21 @@
 
 ## 安装
 
-### 方式一：让 Codex 安装
+### 方式一：复制给你的 Agent（推荐）
 
-在 Codex 中发送：
+把下面这句话直接复制给支持 Agent Skills 的 AI Agent：
 
 ```text
-请安装这个 Skill：
-https://github.com/2253313452why-eng/suno-songcraft/tree/main/skills/suno-prompt-engineer
+安装这个 Skill：https://github.com/2253313452why-eng/suno-songcraft/tree/main/skills/suno-prompt-engineer
 ```
 
-安装完成后，在下一轮对话或新任务中使用。
+Agent 会读取仓库中的 `SKILL.md` 和参考模块，并安装到它所使用的 Skill 目录。安装完成后，开启下一轮对话或新任务即可使用。
 
-### 方式二：使用 Skill Installer
+如果你的 Agent 还不支持 Skills，也可以下载 [`SKILL.md`](https://github.com/2253313452why-eng/suno-songcraft/blob/main/skills/suno-prompt-engineer/SKILL.md)，把它作为项目规则文件交给 Agent；但这种方式可能无法自动加载 `references/` 中的完整创作规范。
+
+### 方式二：在 Codex 中安装
+
+Codex 用户同样可以直接发送上面的一句话。也可以使用内置 Skill Installer：
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
