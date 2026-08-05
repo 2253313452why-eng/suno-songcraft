@@ -1,0 +1,27 @@
+{
+  "name": "suno-songcraft",
+  "version": "0.1.0+codex.20260805032836",
+  "description": "Original song creation, Suno prompt engineering, reference analysis, and listening-driven iteration.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Suno Songcraft",
+    "shortDescription": "\u4ece\u7075\u611f\u3001\u53c2\u8003\u66f2\u6216\u6b4c\u8bcd\u751f\u6210\u5e76\u8fed\u4ee3 Suno \u6b4c\u66f2\u63d0\u793a\u8bcd",
+    "longDescription": "Suno Songcraft \u9762\u5411\u97f3\u4e50\u5c0f\u767d\u4e0e\u521b\u4f5c\u8005\uff0c\u652f\u6301\u4ece\u96f6\u521b\u4f5c\u548c\u6539\u5199\u6b4c\u8bcd\u3001\u8bbe\u8ba1\u4f20\u64ad\u53cb\u597d\u7684\u6b4c\u66f2\u7ed3\u6784\u3001\u62c6\u89e3\u53c2\u8003\u66f2\u3001\u751f\u6210\u534f\u8c03\u7684 Lyrics \u4e0e Style\u3001\u63a7\u5236\u5143\u6807\u7b7e\u3001\u6c14\u53e3\u3001\u53e0\u5531\u3001\u8f6c\u8c03\u548c\u8f6c\u97f3\uff0c\u5e76\u6839\u636e\u8bd5\u542c\u53cd\u9988\u8fdb\u884c\u7248\u672c\u5316\u8fed\u4ee3\u3002",
+    "developerName": "Local developer",
+    "category": "Creative",
+    "capabilities": [
+      "Songwriting",
+      "Suno prompt engineering",
+      "Reference song analysis",
+      "Listening iteration"
+    ],
+    "defaultPrompt": [
+      "\u7528 $suno-prompt-engineer \u4ece\u4e00\u4e2a\u4e3b\u9898\u5f00\u59cb\u521b\u4f5c\u5b8c\u6574\u7684 Suno \u6b4c\u8bcd\u4e0e Style\u3002",
+      "\u7528 $suno-prompt-engineer \u5206\u6790\u6211\u7684\u53c2\u8003\u66f2\uff0c\u5e76\u8fc1\u79fb\u5176\u7ed3\u6784\u548c\u60c5\u7eea\u673a\u5236\u3002",
+      "\u7528 $suno-prompt-engineer \u6839\u636e\u8bd5\u542c\u53cd\u9988\u4f18\u5316\u6c14\u53e3\u3001\u53e0\u5531\u548c\u526f\u6b4c\u8868\u73b0\u3002"
+    ]
+  }
+}
