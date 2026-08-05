@@ -44,12 +44,12 @@ Combine modes when needed, but choose one primary mode.
 3. Apply the beginner confirmation gate before drafting. In Create mode, if the user supplies only a broad topic, event, person, place, weather, scene, or one-line idea and has not established at least two creative anchors, do not write Lyrics or Style yet. Creative anchors include purpose/audience, core statement, emotional direction, reference song/listening feeling, style, structure preference, and vocal/production direction.
 4. Present two to four concrete, plain-language directions inferred from the user's material and ask the user to choose, combine, or replace them. Include a recommended default and ask about a reference song or familiar-versus-innovative structure when those answers would materially change the result. Ask no more than three compact questions in one round.
 5. Bypass this gate only when the user explicitly asks to generate immediately, such as “直接写”, “不用问”, “先出一版”, or an equivalent instruction. State the consequential assumptions before the draft. Conservative defaults may reduce follow-up questions but must not bypass the gate by themselves.
-6. Build an internal brief: audience, scene, core statement, viewpoint, emotional arc, concrete imagery, hook, structure, style identity, vocal plan, and exclusions.
-7. Design section functions before writing lines. Make Verse 2 add information and make the hook carry the central claim.
+6. Build an internal brief: audience, scene, core statement, viewpoint, emotional arc, concrete imagery, hook, structure, style identity, vocal plan, exclusions, emotional/register ceiling, section syllable grid, and section rhyme plan.
+7. Design section functions before writing lines. Assign each sung section a repeatable line-length pattern and planned rhyme family; make Verse 2 add information and make the hook carry the central claim.
 8. For Chinese lyrics, establish a natural narrator voice, truthful detail boundary, scene chain, and conversational core phrase before drafting. Write or revise the lyric at the authorized edit level, then run the Chinese human-writing pass without sacrificing singability.
 9. Format Lyrics with structural tags, meaningful local metatags, phrase boundaries, breath space, and coordinated musical events.
 10. Create the global Style from compatible genre, emotion, groove, harmony, arrangement, vocal, and mix decisions.
-11. Check Lyrics and Style together for contradictions, crowding, missing rests, uncontrolled vocal layering, and unnecessary key or melodic movement.
+11. Check Lyrics and Style together for contradictions, rhyme-family drift, irregular line grids, crowding, missing rests, uncontrolled vocal layering, energy-ceiling violations, and unnecessary key or melodic movement.
 12. Return the contract for the active mode. Keep pasteable content inside clean code blocks and explanations outside them.
 13. During iteration, preserve confirmed elements, change one to three related variables, state the expected effect, and version the result.
 
@@ -81,9 +81,12 @@ Never invent names, dates, product capabilities, claims, personal history, or ot
 
 ## Enforce musical clarity
 
-- Use structural tags for every section and one to three local metatags for each meaningful state or change. Do not impose a whole-song cap of six local tags.
+- Use structural tags for every section. Add zero to three local metatags only when a meaningful state or change needs marking; a section with no local change needs no extra tag. Put repeated whole-song states in Style instead of restating them in every section.
 - Use line breaks, blank lines, punctuation, and targeted pause or instrumental tags to create breathing groups. Use spaces inside Chinese text only for intentional phrase or syllable emphasis.
+- Give each section a deliberate syllable grid. Keep parallel and repeated lines close in sung-syllable count, normally within one syllable; do not use spaces to disguise an irregular meter.
+- Plan rhyme by section and treat the last content line as its cadence anchor. Keep Chorus rhyme strongest, and repair an accidental off-family ending without forcing unnatural Chinese syntax.
 - Keep a single separated lead vocal by default. Introduce backing layers only where designed; avoid continuous overlapping lines, dense ad-libs, and unrequested call-and-response.
+- Set an emotional and register ceiling from the user's intent. For quiet or restrained songs, remove contradictory lift, belting, crescendo, octave-jump, full-band-climax, and key-lift cues; deepen the Chorus through wording, harmony color, or texture without automatically raising pitch or loudness.
 - Keep the tonal center stable and harmony predominantly appropriate to the chosen genre. Reserve modulation and chromatic color for explicit transitions or highlights.
 - Keep ordinary delivery mostly syllabic with clear diction. Reserve short melisma or vocal runs for selected phrase endings or climaxes unless the genre requires more.
 - Put whole-song conditions in Style and section-specific events in Lyrics. Express an important local event in both fields only when the global arrangement must prepare for it.
@@ -111,8 +114,11 @@ Before delivery, verify that:
 - The central idea, viewpoint, facts, and protected phrases remain intact.
 - Chinese lyrics sound like a particular person in a particular moment rather than a generic lyrical narrator; invented fictional detail is not presented as the user's real history.
 - Verse 2 advances the song and the hook is concrete, concise, and memorable.
+- Every sung section follows a deliberate line-length pattern; parallel lines and repeated hooks remain metrically stable.
+- Each section has a coherent rhyme plan, and its cadence line lands in the intended rhyme family unless a deliberate rupture is musically supported.
 - Lyrics contain functional structure, metatags, and breathing space without command clutter.
 - Style contains a coherent style identity, emotional arc, groove, arrangement, vocal design, and mix.
 - Lyrics and Style agree about sections, vocals, instrumentation, intensity, and ending.
+- Lyrics and Style respect the requested emotional and register ceiling; no local tag accidentally requests a bigger climax, key lift, or higher delivery.
 - Modulation, chromaticism, melisma, backing vocals, and ad-libs are intentional rather than uncontrolled.
 - Code blocks contain only pasteable content.
